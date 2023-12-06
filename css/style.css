@@ -86,9 +86,10 @@ body{
     
     .mobile-menu {
     display: none;
-    position: absolute;
+    position: fixed;
+    overflow: hidden;
     top: 12vh;
-    height: 100vh;
+    height: 88vh;
     left: 0;
     width: 100%;
     background-color: #000000;
@@ -155,7 +156,7 @@ body{
         height: 3.5vw;
     }
     
-    .languages button{
+    .languages a{
         background: none;
         border: none;
         color: #FFFFFF;
