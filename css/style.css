@@ -86,8 +86,8 @@ body{
     
     .mobile-menu {
     display: none;
-    position: absolute;
-    height: 120vh;
+    position: fixed;
+    height: 100vh;
     top: 0;
     left: 0;
     width: 100%;
