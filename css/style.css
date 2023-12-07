@@ -80,32 +80,30 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     position: fixed;
     }
     
     .mobile-menu {
     display: none;
     position: fixed;
-    height: 100vh;
-    top: 0;
+    height: 110vh;
+    top: 11vh;
     left: 0;
     width: 100%;
     background-color: #000000;
     list-style: none;
     }
-    
-    .mobile-menu li {
-    margin-bottom: 1vh;
-    }
 
     .mobile-menu a {
     text-decoration: none;
     color: rgb(212, 212, 212);
-    font-size: 6vh;
+    font-size: 7vh;
     }
 
-
+    .mobile-menu li{
+        margin-top: 10vh;
+    }
 
     .pages{
         width: 67%;
