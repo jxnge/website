@@ -81,7 +81,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
     position: fixed;
     }
     
@@ -89,7 +89,7 @@ body{
     display: none;
     position: absolute;
     top: 12vh;
-    height: 100vh;
+    height: 88vh;
     left: 0;
     width: 100%;
     background-color: #000000;
@@ -105,6 +105,8 @@ body{
     color: rgb(212, 212, 212);
     font-size: 6vh;
     }
+
+
 
     .pages{
         width: 67%;
@@ -445,7 +447,7 @@ body{
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding-top: 10vh;
+        padding-top: 7vh;
         height: 100vh;
     }
 
@@ -453,11 +455,11 @@ body{
         font-size: 9vh;
         font-weight: 700;
         color: limegreen;
-        margin-bottom: 1vh;
+        margin-bottom: 0.5vh;
     }
 
     #projects p{
-        font-size: 5vh;
+        font-size: 2.6vw;
         font-weight: 500;
         margin-bottom: 3vh;
         width: 50%;
@@ -469,7 +471,7 @@ body{
         text-decoration: none;
         color: rgb(212, 212, 212);
         border: 0.6vw solid rgb(212, 212, 212);
-        padding: 3vw;
+        padding: 2vw;
     }
 
     #projects a:hover{
