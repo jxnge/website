@@ -83,13 +83,14 @@ body{
     align-items: center;
     justify-content: space-around;
     position: fixed;
+    height: 88vh;
     }
     
     .mobile-menu {
     display: none;
     position: absolute;
     top: 12vh;
-    height: 88vh;
+    
     left: 0;
     width: 100%;
     background-color: #000000;
