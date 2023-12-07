@@ -345,7 +345,7 @@ body{
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        min-height: 60vh;
+        height: 60vh;
     }
     
     .info p{
@@ -353,11 +353,14 @@ body{
         font-weight: 500;
         width: 40%;
         text-align: center;
-        min-height: 60vh;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
     }
     
     .info img{
-        width: 30vh;
+        width: 30vw;
         height: 60vh;
         width: 25%;
     }
