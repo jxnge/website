@@ -9,7 +9,6 @@ body{
     background-color: rgb(26, 27, 29);
     color: rgb(212, 212, 212);
     width: 100%;
-    overflow-y: scroll;
     font-family: 'Open Sans', sans-serif;
     text-align: center;
 }
@@ -83,14 +82,12 @@ body{
     align-items: center;
     justify-content: space-around;
     position: fixed;
-    height: 88vh;
     }
     
     .mobile-menu {
     display: none;
     position: absolute;
-    top: 12vh;
-    
+    height: 100vh;
     left: 0;
     width: 100%;
     background-color: #000000;
