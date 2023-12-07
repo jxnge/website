@@ -45,7 +45,9 @@ body{
     .nav{
         width: 80%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
+        flex-direction: row;
+        justify-content: flex-end;
     }
     
     #hamburger-icon {
@@ -109,21 +111,6 @@ body{
         width: 67%;
     }
     
-    .languages{
-        width: 30%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-    }
-    
-    .languages ul{
-        width: 100%;
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        list-style: none;
-    }
-    
     .nav .pages{
         display: flex;
         justify-content: space-between;
@@ -144,38 +131,11 @@ body{
         font-size: 2.7vw;
         font-weight: 600;
         transition: 0.5s ease-in-out;
+        margin-right: 1vh;
     }
     
     .pages a:hover{
         color: limegreen;
-    }
-    
-    .languages img{
-        width: 6vw;
-        height: 3.5vw;
-    }
-    
-    .languages a{
-        background: none;
-        border: none;
-        color: #FFFFFF;
-        cursor: pointer;
-        margin-right: 2vw;
-    }
-    
-    img.polish{
-        -webkit-filter: grayscale(1) opacity(0.8) ;
-        filter: grayscale(1);
-    }
-    
-    img.polish:hover{
-        -webkit-filter: grayscale(0) opacity(1) ;
-        filter: grayscale(0);
-    }
-    
-    img.english{
-        -webkit-filter: grayscale(0) opacity(1) ;
-        filter: grayscale(0);
     }
     
     main{
