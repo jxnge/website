@@ -19,28 +19,6 @@
     }
 
     
-    .languages button{
-        background: none;
-        border: none;
-        color: #FFFFFF;
-        cursor: pointer;
-        margin-right: 2vw;
-    }
-    
-    img.polish{
-        -webkit-filter: grayscale(1) opacity(0.8) ;
-        filter: grayscale(1);
-    }
-    
-    img.polish:hover{
-        -webkit-filter: grayscale(0) opacity(1) ;
-        filter: grayscale(0);
-    }
-    
-    img.english{
-        -webkit-filter: grayscale(0) opacity(1) ;
-        filter: grayscale(0);
-    }
     
     main{
         display: block;
