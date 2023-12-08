@@ -9,7 +9,7 @@
     }
     
     .branding img{
-        height: 12dvh;
+        height: 12svh;
     }
     
     .nav{
@@ -31,13 +31,13 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100dvh;
+        height: 100svh;
     }
 
     @keyframes animate {
 
     0%{
-        transform: translateY(-113vh) rotate(720deg);
+        transform: translateY(-113svh) rotate(720deg);
         opacity: 1;
         border-radius: 0;
     }
@@ -63,18 +63,18 @@
     
     #home h1{
         width: 80%;
-        padding: 0.5dvw;
-        font-size: 10dvw;
+        padding: 0.5svw;
+        font-size: 10svw;
         font-weight: 700;
-        margin-bottom: 2.1dvh;
+        margin-bottom: 2.1svh;
         animation: bounceIn 2s;
         text-align: center;
     }
     
     #home h2{
         width: 80%;
-        padding: 0.5dvw;
-        font-size: 4dvw;
+        padding: 0.5svw;
+        font-size: 4svw;
         font-weight: 500;
         animation: bounceIn 2s 1s;
         animation-fill-mode: forwards;
@@ -103,21 +103,21 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100dvh;
+        height: 100svh;
     }
 
     #about .section-header{
-        height: 25dvh;
+        height: 25svh;
         width: 100%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding-top: 5dvh;
+        padding-top: 5svh;
     }
     
     #about h1, #projects h1, #contact h1{
-        font-size: 17dvw;
+        font-size: 16svw;
         font-weight: 600;
         color: limegreen;
         text-align: center;
@@ -130,7 +130,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        height: 65dvh;
+        height: 65svh;
         padding: 0;
     }
 
@@ -140,22 +140,22 @@
 
     .info-text{
         width: 100%;
-        height: 55dvh;
+        height: 55svh;
         display: flex;
         flex-direction: column;
         justify-content: center;
     } 
     
     #about p{
-        font-size: 2.3dvh;
+        font-size: 2.3svh;
         font-weight: 500;
         width: 100%;
         text-align: center;
         display: flex;
         flex-direction: column;
         justify-content: center;
-        margin-top: -10dvw;
-        padding: 0 5dvw;
+        margin-top: -10svw;
+        padding: 0 5svw;
     }
     
     .section-info .cvs{
@@ -174,11 +174,11 @@
     .section-info .cvs a{
         text-decoration: none;
         color: limegreen;
-        font-size: 2.5dvh;
+        font-size: 2.5svh;
         border: 0.3dvw solid limegreen;
-        padding: 1.3dvh;
-        height: 20dvh;
-        width: 20dvh;
+        padding: 1.3svh;
+        height: 20svh;
+        width: 20svh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -187,12 +187,12 @@
 
     .cvs a:hover{
         color: white;
-        border: 0.3dvw solid red;
+        border: 0.3svw solid red;
     }
     
     .cvs a.eng:hover{
         color: red;
-        border: 0.3dvw solid white;
+        border: 0.3svw solid white;
     }
 
 
@@ -203,11 +203,11 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100dvh;
+        height: 100svh;
     }
 
     #projects .section-header{
-        height: 25dvh;
+        height: 25svh;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -221,28 +221,28 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 65dvh;
-        margin-top: -6dvh;
+        height: 65svh;
+        margin-top: -6svh;
     }
 
     #projects p{
-        font-size: 4.5dvh;
+        font-size: 4.5svh;
         font-weight: 500;
         width: 90%;
         text-align: center;
-        margin-bottom: 3dvh;
+        margin-bottom: 3svh;
     }
 
     #projects a{
-        font-size: 8dvh;
+        font-size: 8svh;
         text-decoration: none;
         color: rgb(212, 212, 212);
         border: 5px solid rgb(212, 212, 212);
-        padding: 2dvh;
+        padding: 2svh;
     }
 
     #projects a:hover{
-        border: 0.6vw solid limegreen;
+        border: 5px solid limegreen;
         color:limegreen;
         background-color: #000000;
     }
@@ -253,7 +253,7 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 80dvh;
+        height: 80svh;
     }
 
     #contact .section-info{
@@ -262,7 +262,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        height: 60dvh;
+        height: 60svh;
     }
 
     #contact .section-info{
@@ -278,23 +278,23 @@
         align-items: center;
         text-decoration: none;
         border: 0.3dvw solid limegreen;
-        width: 45dvw;
-        height: 45dvw;
-        font-size: 6dvw;
+        width: 45svw;
+        height: 45svw;
+        font-size: 6svw;
         font-weight: 600;
         padding: 0;
     }
 
     #contact .mail{
-        font-size: 3.4dvw;
+        font-size: 3.4svw;
     }
 
     #contact .phone{
-        font-size: 4.6dvw;
+        font-size: 4.6svw;
     }
 
     #contact i{
-        font-size: 16dvw;
+        font-size: 16svw;
     }
 
     #contact .fb:hover{
@@ -323,14 +323,14 @@
 
     footer{
         width: 100%;
-        height: 5dvh;
+        height: 5svh;
         background-color: #000000;
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         font-weight: 500;
-        font-size: 2dvh;
+        font-size: 2svh;
     }
 
 }
