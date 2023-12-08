@@ -1,7 +1,7 @@
 @media only screen and (orientation:portrait) {
     
    body{
-    overflow-x: hidden;
+    overflow: hidden;
    }
     
     .branding{

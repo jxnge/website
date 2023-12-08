@@ -344,6 +344,7 @@ body{
     }
 
     #contact .section-info{
+        display: flex;
         flex-wrap: wrap;
     }
 
