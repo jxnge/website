@@ -37,7 +37,7 @@
     @keyframes animate {
 
     0%{
-        transform: translateY(-121vh) rotate(720deg);
+        transform: translateY(-113vh) rotate(720deg);
         opacity: 1;
         border-radius: 0;
     }
