@@ -113,6 +113,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 5dvh;
     }
     
     #about h1, #projects h1, #contact h1{

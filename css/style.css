@@ -89,7 +89,7 @@ body{
     .mobile-menu {
     display: none;
     position: fixed;
-    height: 100vh;
+    height: 110vh;
     top: 11vh;
     left: 0;
     width: 100%;
