@@ -23,6 +23,7 @@
     main{
         display: block;
         width: 100%;
+        padding: 10px;
     }
     
     #home{
@@ -87,7 +88,7 @@
         height: 110vh;
     }
 
-    .section-header{
+    #about .section-header{
         height: 25vh;
         width: 100%;
         display: flex;
@@ -97,7 +98,7 @@
     }
     
     #about h1, #projects h1, #contact h1{
-        font-size: 19vw;
+        font-size: 17vw;
         font-weight: 600;
         color: limegreen;
         text-align: center;
@@ -183,7 +184,16 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        height: 100vh;
+        height: 110vh;
+    }
+
+    #projects .section-header{
+        height: 25vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
     }
 
     #projects .section-info{
@@ -192,24 +202,24 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 60vh;
+        height: 65vh;
+        margin-top: -10vh;
     }
 
     #projects p{
         font-size: 4.8vh;
         font-weight: 500;
-        width: 60%;
+        width: 100%;
         text-align: center;
         margin-bottom: 3vh;
     }
 
     #projects a{
-        font-size: 14vh;
+        font-size: 8vh;
         text-decoration: none;
         color: rgb(212, 212, 212);
         border: 5px solid rgb(212, 212, 212);
         padding: 2vh;
-        display: none;
     }
 
     #projects a:hover{
