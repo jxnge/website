@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -338,6 +339,10 @@ body{
         color: rgb(212, 212, 212);
         border: 5px solid rgb(212, 212, 212);
         padding: 2svh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
     }
 
     #projects a:hover{
