@@ -25,7 +25,7 @@ body{
         width: 100%;
         background-color:#000000;
         height: 12vh;
-        z-index: 1;
+        z-index: 2;
     }
     
     .branding{
@@ -90,11 +90,12 @@ body{
     display: none;
     position: fixed;
     height: 110vh;
-    top: 11vh;
+    top: 0vh;
     left: 0;
     width: 100%;
     background-color: #000000;
     list-style: none;
+    z-index: 1;
     }
 
     .mobile-menu a {
