@@ -30,7 +30,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100vh;
+        height: 110vh;
     }
     
     .context {
@@ -44,7 +44,7 @@
     
     #home h1{
         width: 80%;
-        padding: 0.5vh;
+        padding: 0.5vw;
         font-size: 10vw;
         font-weight: 700;
         margin-bottom: 2.1vh;
@@ -200,12 +200,11 @@
     }
 
     #projects a{
-        font-size: 20vh;
+        font-size: 10vh;
         text-decoration: none;
         color: rgb(212, 212, 212);
         border: 5px solid rgb(212, 212, 212);
         padding: 2vh;
-        display: none;
     }
 
     #projects a:hover{
