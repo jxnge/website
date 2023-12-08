@@ -82,7 +82,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-around;
+    justify-content: flex-start;
     position: fixed;
     }
     
@@ -90,7 +90,7 @@ body{
     display: none;
     position: fixed;
     height: 90dvh;
-    top: 11dvh;
+    top: 12dvh;
     left: 0;
     width: 100%;
     background-color: #000000;
@@ -103,7 +103,9 @@ body{
     font-size: 7vh;
     }
 
-    
+    .mobile-menu li{
+        margin-top: 7vh;
+    }
 
     .pages{
         width: 67%;
