@@ -268,7 +268,7 @@ body{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
         align-items: flex-end;
     }
 
@@ -284,6 +284,14 @@ body{
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .eng{
+        margin-right: 1vh;
+    }
+
+    .pol {
+        margin-left: 1vh;
     }
 
     .cvs a:hover{
