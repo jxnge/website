@@ -1,7 +1,7 @@
 @media only screen and (orientation:portrait) {
     
    body{
-    overflow: hidden;
+    overflow-x: hidden;
    }
     
     .branding{
@@ -205,6 +205,7 @@
         color: rgb(212, 212, 212);
         border: 5px solid rgb(212, 212, 212);
         padding: 2vh;
+        display: none;
     }
 
     #projects a:hover{
