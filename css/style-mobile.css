@@ -1,6 +1,8 @@
 @media only screen and (orientation:portrait) {
     
-   
+   body{
+    overflow-x: hidden;
+   }
     
     .branding{
         width: 30%;
@@ -18,8 +20,6 @@
         display: block;
     }
 
-    
-    
     main{
         display: block;
         width: 100%;
@@ -30,7 +30,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        min-height: 100vh;
+        height: 100vh;
     }
     
     .context {
@@ -42,144 +42,20 @@
         justify-content: center;
     }
     
-    .area{
-        background: rgba(26, 27, 29, 0.2);  
-        background: -webkit-linear-gradient(to left, lime, limegreen);  
-        width: 100%;
-        height: 100vh;
-    }
-    
-    .squares{
-        position: relative;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-    }
-    
-    .squares li{
-        position: absolute;
-        display: block;
-        list-style: none;
-        width: 1vw;
-        height: 1vw;
-        background: limegreen;
-        animation: animate 25s linear infinite;
-        bottom: -150px;
-        z-index: -1;
-    }
-    
-    .squares li:nth-child(1){
-        left: 25%;
-        width: 4.17vw;
-        height: 4.17vw;
-        animation-delay: 2.5s;
-    }
-    
-    
-    .squares li:nth-child(2){
-        left: 10%;
-        width: 1vw;
-        height: 1vw;
-        animation-delay: 4.5s;
-        animation-duration: 12s;
-    }
-    
-    .squares li:nth-child(3){
-        left: 70%;
-        width: 1vw;
-        height: 1vw;
-        animation-delay: 6.5s;
-    }
-    
-    .squares li:nth-child(4){
-        left: 40%;
-        width: 3vw;
-        height: 3vw;
-        animation-delay: 2.5s;
-        animation-duration: 18s;
-    }
-    
-    .squares li:nth-child(5){
-        left: 65%;
-        width: 1vw;
-        height: 1vw;
-        animation-delay: 2.5s;
-    }
-    
-    .squares li:nth-child(6){
-        left: 75%;
-        width: 5.7vw;
-        height: 5.7vw;
-        animation-delay: 5.5s;
-    }
-    
-    .circles li:nth-child(7){
-        left: 35%;
-        width: 7.8vw;
-        height: 7.8vw;
-        animation-delay: 9.5s;
-    }
-    
-    .squares li:nth-child(8){
-        left: 50%;
-        width: 1.3vw;
-        height: 1.3vw;
-        animation-delay: 17.5s;
-        animation-duration: 45s;
-    }
-    
-    .squares li:nth-child(9){
-        left: 20%;
-        width: 0.8vw;
-        height: 0.8vw;
-        animation-delay: 4.5s;
-        animation-duration: 35s;
-    }
-    
-    .squares li:nth-child(10){
-        left: 85%;
-        width: 7.8vw;
-        height: 7.8vw;
-        animation-delay: 2.5s;
-        animation-duration: 11s;
-    }
-    
-    
-    
-    @keyframes animate {
-    
-        0%{
-            transform: translateY(0) rotate(0deg);
-            opacity: 1;
-            border-radius: 0;
-        }
-    
-        
-    
-        100%{
-            transform: translateY(-1000px) rotate(720deg);
-            opacity: 0;
-            border-radius: 50%;
-        }
-    
-    }
-    
     #home h1{
         width: 80%;
-        padding: 5px;
-        font-size: 9rem;
+        padding: 0.5vh;
+        font-size: 10vw;
         font-weight: 700;
-        margin-bottom: 20px;
+        margin-bottom: 2.1vh;
         animation: bounceIn 2s;
         text-align: center;
     }
     
     #home h2{
         width: 80%;
-        padding: 5px;
-        font-size: 3.6rem;
+        padding: 0.5vh;
+        font-size: 4vw;
         font-weight: 500;
         animation: bounceIn 2s 1s;
         animation-fill-mode: forwards;
@@ -208,60 +84,77 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        min-height: 100vh;
-        padding-top: 5vh;
+        height: 100vh;
+    }
+
+    .section-header{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
-    #about h1{
-        font-size: 8vh;
+    #about h1, #projects h1, #contact h1{
+        font-size: 12vh;
         font-weight: 700;
         color: limegreen;
-        margin-bottom: 1vw;
         text-align: center;
     }
     
     
-    #about .info{
+    #about .section-info, #contact .section-info{
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        min-height: 60vh;
-    }
-    
-    .info h3{
-        font-size: 3.8vh;
-        font-weight: 500;
-        width: 40%;
-        text-align: center;
-        min-height: 60vh;
-    }
-    
-    .info img{
-        width: 30vw;
         height: 60vh;
-        width: 25%;
     }
 
-    .info .cvs{
-        width: 30vw;
-        height: 60vh;
-        width: 25%;
+    #about img{
+        display: none;
+    }
+
+    .info-text{
+        width: 60%;
+        height: 55vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
-        align-items: center;
+    } 
+    
+    #about p{
+        font-size: 2rem;
+        font-weight: 500;
+        height: 30vh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 5vh 0;
+    }
+    
+    .section-info .cvs{
+        width: 30vh;
+        height: 30vh;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: flex-end;
     }
 
-    .info .cvs a{
+    .section-info .cvs a{
         text-decoration: none;
         color: limegreen;
-        font-size: 4vh;
+        font-size: 2vh;
         border: 0.3vw solid limegreen;
-        padding: 2vh;
-        height: 45%;
-        width: 80%;
+        padding: 1.6vh;
+        height: 12vw;
+        width: 12vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -286,30 +179,32 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding-top: 5vh;
-        min-height: 100vh;
+        height: 100vh;
     }
 
-    #projects h1{
-        font-size: 9vh;
-        font-weight: 700;
-        color: limegreen;
+    #projects .section-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 60vh;
     }
 
     #projects p{
-        font-size: 5vh;
+        font-size: 4.8vh;
         font-weight: 500;
-        margin-bottom: 5vh;
-        width: 50%;
+        width: 60%;
         text-align: center;
+        margin-bottom: 3vh;
     }
 
     #projects a{
         font-size: 20vh;
         text-decoration: none;
         color: rgb(212, 212, 212);
-        border: 0.6vw solid rgb(212, 212, 212);
-        padding: 3vw;
+        border: 5px solid rgb(212, 212, 212);
+        padding: 2vh;
     }
 
     #projects a:hover{
@@ -324,25 +219,14 @@
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding-top: 5vh;
-        min-height: 80vh;
+        height: 80vh;
+        margin-bottom: 5vh;
     }
 
-    #contact .socials{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+    #contact .section-info{
         flex-wrap: wrap;
-        min-height: 70vh;
     }
 
-    #contact h1{
-        font-size: 9vh;
-        font-weight: 700;
-        color: limegreen;
-    }
 
     #contact a{
         color: limegreen;
@@ -406,4 +290,5 @@
         font-weight: 500;
         font-size: 2.7vh;
     }
+
 }
