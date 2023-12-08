@@ -125,7 +125,7 @@ body{
         list-style: none;
     }
     
-    .pages a{
+    header a{
         text-decoration: none;
         color: rgb(212, 212, 212);
         font-size: 2.7vw;
@@ -134,7 +134,7 @@ body{
         margin-right: 1vh;
     }
     
-    .pages a:hover{
+    header a:hover{
         color: limegreen;
     }
     
@@ -163,7 +163,7 @@ body{
     #home h1{
         width: 80%;
         padding: 0.5vh;
-        font-size: 16vh;
+        font-size: 10vw;
         font-weight: 700;
         margin-bottom: 2.1vh;
         animation: bounceIn 2s;
@@ -173,7 +173,7 @@ body{
     #home h2{
         width: 80%;
         padding: 0.5vh;
-        font-size: 6.9vh;
+        font-size: 4vw;
         font-weight: 500;
         animation: bounceIn 2s 1s;
         animation-fill-mode: forwards;
@@ -203,19 +203,26 @@ body{
         align-items: center;
         width: 100%;
         height: 100vh;
-        padding-top: 10vh;
+    }
+
+    .section-header{
+        height: 20vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     
-    #about h1{
-        font-size: 9vh;
+    #about h1, #projects h1, #contact h1{
+        font-size: 12vh;
         font-weight: 700;
         color: limegreen;
-        margin-bottom: 1vh;
         text-align: center;
     }
     
     
-    #about .info{
+    #about .section-info, #contact .section-info{
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -224,7 +231,7 @@ body{
         height: 60vh;
     }
 
-    .info img{
+    #about img{
         width: 30vw;
         height: 60vh;
         width: 30%;
@@ -232,14 +239,14 @@ body{
 
     .info-text{
         width: 60%;
-        height: 60vh;
+        height: 55vh;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     } 
     
-    .info p{
-        font-size: 2.8vh;
+    #about p{
+        font-size: 2.95vh;
         font-weight: 500;
         height: 30vh;
         width: 100%;
@@ -250,24 +257,24 @@ body{
         margin: 5vh 0;
     }
     
-    .info .cvs{
+    .section-info .cvs{
         width: 30vh;
         height: 30vh;
         width: 100%;
         display: flex;
         flex-direction: row;
         justify-content: space-around;
-        align-items: center;
+        align-items: flex-end;
     }
 
-    .info .cvs a{
+    .section-info .cvs a{
         text-decoration: none;
         color: limegreen;
         font-size: 2vh;
         border: 0.3vw solid limegreen;
-        padding: 2vh;
-        height: 14vw;
-        width: 14vw;
+        padding: 1.6vh;
+        height: 12vw;
+        width: 12vw;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -292,31 +299,32 @@ body{
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding-top: 7vh;
         height: 100vh;
     }
 
-    #projects h1{
-        font-size: 9vh;
-        font-weight: 700;
-        color: limegreen;
-        margin-bottom: 0.5vh;
+    #projects .section-info{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 60vh;
     }
 
     #projects p{
-        font-size: 2.6vw;
+        font-size: 4.8vh;
         font-weight: 500;
-        margin-bottom: 3vh;
-        width: 50%;
+        width: 60%;
         text-align: center;
+        margin-bottom: 3vh;
     }
 
     #projects a{
         font-size: 20vh;
         text-decoration: none;
         color: rgb(212, 212, 212);
-        border: 0.6vw solid rgb(212, 212, 212);
-        padding: 2vw;
+        border: 5px solid rgb(212, 212, 212);
+        padding: 2vh;
     }
 
     #projects a:hover{
@@ -331,25 +339,14 @@ body{
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding-top: 5vh;
-        min-height: 80vh;
+        height: 80vh;
+        margin-bottom: 5vh;
     }
 
-    #contact .socials{
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-around;
-        align-items: center;
+    #contact .section-info{
         flex-wrap: wrap;
-        min-height: 70vh;
     }
 
-    #contact h1{
-        font-size: 9vh;
-        font-weight: 700;
-        color: limegreen;
-    }
 
     #contact a{
         color: limegreen;

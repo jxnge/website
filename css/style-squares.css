@@ -66,38 +66,38 @@
 
 .squares li:nth-child(6){
     left: 75%;
-    width: 5.7vw;
-    height: 5.7vw;
+    width: 6vw;
+    height: 6vw;
     animation-delay: 5.5s;
 }
 
 .circles li:nth-child(7){
     left: 35%;
-    width: 7.8vw;
-    height: 7.8vw;
-    animation-delay: 9.5s;
+    width: 8vw;
+    height: 8vw;
+    animation-delay: 6.5s;
 }
 
 .squares li:nth-child(8){
     left: 50%;
-    width: 1.3vw;
-    height: 1.3vw;
-    animation-delay: 17.5s;
+    width: 1.5vw;
+    height: 1.5vw;
+    animation-delay: 7.5s;
     animation-duration: 45s;
 }
 
 .squares li:nth-child(9){
     left: 20%;
-    width: 0.8vw;
-    height: 0.8vw;
+    width: 1vw;
+    height: 1vw;
     animation-delay: 4.5s;
     animation-duration: 35s;
 }
 
 .squares li:nth-child(10){
     left: 85%;
-    width: 7.8vw;
-    height: 7.8vw;
+    width: 7vw;
+    height: 7vw;
     animation-delay: 2.5s;
     animation-duration: 11s;
 }
