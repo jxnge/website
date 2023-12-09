@@ -1,4 +1,4 @@
-@media only screen and (orientation:portrait) and (min-width: 370px) and (max-width: 767px) {
+@media only screen and (orientation:portrait) and (min-width: 351px) and (max-width: 767px) {
     
    body{
     overflow-x: hidden;
@@ -226,14 +226,14 @@
     }
 
     #projects p{
-        font-size: 8svw;
+        font-size: 4.5svh;
         font-weight: 500;
         width: 90%;
         text-align: center;
     }
 
     #projects a{
-        font-size: 14svw;
+        font-size: 7svh;
         text-decoration: none;
         color: rgb(212, 212, 212);
         border: 5px solid rgb(212, 212, 212);
@@ -334,7 +334,7 @@
 
 }
 
-@media only screen and (orientation:portrait) and ((min-width: 768px) or (max-width: 500px)) {
+@media only screen and (orientation:portrait) and ((min-width: 768px) or (max-width: 350px)) {
     body{
         overflow-x: hidden;
        }
