@@ -117,7 +117,7 @@
     }
     
     #about h1, #projects h1, #contact h1{
-        font-size: 16svw;
+        font-size: 15.5svw;
         font-weight: 600;
         color: limegreen;
         text-align: center;
@@ -561,17 +561,17 @@
         }
     
         #projects p{
-            font-size: 6svw;
+            font-size: 4.2svh;
             font-weight: 500;
             width: 90%;
             text-align: center;
         }
     
         #projects a{
-            font-size: 12svw;
+            font-size: 8svh;
             text-decoration: none;
             color: rgb(212, 212, 212);
-            border: 1.2svw solid rgb(212, 212, 212);
+            border: 1svh solid rgb(212, 212, 212);
             padding: 2svh;
         }
     
@@ -786,7 +786,7 @@
         }
         
         #about h1, #projects h1, #contact h1{
-            font-size: 16svw;
+            font-size: 15svw;
             font-weight: 600;
             color: limegreen;
             text-align: center;
