@@ -130,7 +130,7 @@
         flex-direction: row;
         justify-content: space-around;
         align-items: center;
-        height: 64svh;
+        height: 65svh;
         padding: 0;
     }
 
@@ -147,7 +147,7 @@
     } 
     
     #about p{
-        font-size: 2.4svh;
+        font-size: 2.3svh;
         font-weight: 500;
         width: 100%;
         text-align: center;
@@ -465,7 +465,7 @@
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
-            height: 64svh;
+            height: 65svh;
             padding: 0;
         }
     
@@ -482,7 +482,7 @@
         } 
         
         #about p{
-            font-size: 2.4svh;
+            font-size: 2.7svh;
             font-weight: 500;
             width: 100%;
             text-align: center;
@@ -799,7 +799,7 @@
             flex-direction: row;
             justify-content: space-around;
             align-items: center;
-            height: 64svh;
+            height: 65svh;
             padding: 0;
         }
     
@@ -816,7 +816,7 @@
         } 
         
         #about p{
-            font-size: 2.4svh;
+            font-size: 2.65svh;
             font-weight: 500;
             width: 100%;
             text-align: center;
