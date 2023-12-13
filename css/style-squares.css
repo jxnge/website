@@ -107,7 +107,8 @@
 @keyframes animate {
 
     0%{
-        transform: translateY(0) rotate(0deg);
+        -ms-transform: translateY(0) rotate(0deg);
+        -webkit-transform: translateY(0) rotate(0deg);
         opacity: 1;
         border-radius: 0;
     }
@@ -115,7 +116,8 @@
     
 
     100%{
-        transform: translateY(-113vh) rotate(720deg);
+        -ms-transform: translateY(-113vh) rotate(720deg);
+        -webkit-transform: translateY(-113vh) rotate(720deg);
         opacity: 0;
         border-radius: 50%;
     }
