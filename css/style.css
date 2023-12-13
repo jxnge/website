@@ -391,16 +391,8 @@ body{
         font-weight: 600;
     }
 
-    #contact .mail{
-        font-size: 1.6svw;
-    }
-
-    #contact .phone{
-        font-size: 2.2svw;
-    }
-
     #contact i{
-        font-size: 8svw;
+        font-size: 10svw;
     }
 
     #contact .fb:hover{

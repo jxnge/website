@@ -279,21 +279,13 @@
         border: 2px solid limegreen;
         width: 40svw;
         height: 28svh;
-        font-size: 3svw;
+        font-size: 6svw;
         font-weight: 600;
         padding: 0;
     }
 
-    #contact .mail{
-        font-size: 3.2svw;
-    }
-
-    #contact .phone{
-        font-size: 4.6svw;
-    }
-
     #contact i{
-        font-size: 16svw;
+        font-size: 20svw;
     }
 
     #contact .fb:hover{
@@ -614,21 +606,14 @@
             border: 2px solid limegreen;
             width: 40svw;
             height: 28svh;
-            font-size: 3svw;
+            font-size: 6svw;
             font-weight: 600;
             padding: 0;
         }
     
-        #contact .mail{
-            font-size: 3.2svw;
-        }
-    
-        #contact .phone{
-            font-size: 4.6svw;
-        }
     
         #contact i{
-            font-size: 16svw;
+            font-size: 20svw;
         }
     
         #contact .fb:hover{
@@ -948,21 +933,13 @@
             border: 2px solid limegreen;
             width: 40svw;
             height: 28svh;
-            font-size: 3svw;
+            font-size: 6svw;
             font-weight: 600;
             padding: 0;
         }
     
-        #contact .mail{
-            font-size: 3.2svw;
-        }
-    
-        #contact .phone{
-            font-size: 4.6svw;
-        }
-    
         #contact i{
-            font-size: 16svw;
+            font-size: 20svw;
         }
     
         #contact .fb:hover{
